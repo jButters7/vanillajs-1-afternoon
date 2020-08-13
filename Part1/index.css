@@ -38,7 +38,7 @@
 .whose-turn{
     display: flex;
     justify-content: center;
-    font-size: 18px;
+    font-size: 24px;
     align-items: center;
     background-color: red;
     height: 10%;
@@ -55,4 +55,24 @@
     font-size: 20px;
     margin: 10px;
 
+}
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.winner-text{
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+}
+
+.who-won{
+    visibility: visible;
+    text-align: center;
 }
